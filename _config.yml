@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "cn"
+locale                   : "en"
 title                    : "Xia's blog"
 title_separator          : "-"
 name                     : "Xia Hua"
 description              : "Share My Thoughts."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://xiahua-spark.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : "XiaHua-Spark/XiaHua-Spark.github.io"
+teaser                   : "matrix.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  name             : "Xia Hua"
+  avatar           : "my_avatar.jpg"
+  bio              : "I'm Ph.D student interested in computational pgotography."
+  location         : "Nanjing China"
+  email            : "xhua.spark@gmail.com
+  uri              : "www.cite.nju.edu.cn"
   bitbucket        :
   codepen          :
   dribbble         :
