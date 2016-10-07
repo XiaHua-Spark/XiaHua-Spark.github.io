@@ -1,6 +1,9 @@
 ---
-layout: single
-title: A Neural Algorithm of Artistic Style
+title: "A Neural Algorithm of Artistic Style"
+categories:
+  - posts
+tags:
+  - deep learning
 ---
 
 近日举行的 Bay Area Deep Learning School 上 Andrew NG 首次分享了他经过多年观察得出的"如何在机器学习领域成功"的一些经验.
