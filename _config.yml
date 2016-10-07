@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Xia's blog"
 title_separator          : "-"
-name                     : "Xia Hua"
+name                     : &name "Xia Hua"
 description              : "Share My Thoughts."
 url                      : "https://xiahua-spark.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xia Hua"
+  name             : *name
   avatar           : "my_avatar.jpg"
   bio              : "I'm Ph.D student interested in computational pgotography."
-  location         : "Nanjing China"
-  email            : "xhua.spark@gmail.com
+  location         : "Nanjing, China"
+  email            : "xhua.spark@gmail.com"
   uri              : 
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "XiaHua-Spark"
   google_plus      :
   keybase          :
   instagram        :
@@ -162,6 +162,20 @@ kramdown:
   enable_coderay: false
 
 
+# Front Matter defaults    
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -227,16 +241,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-    
-# Front Matter defaults    
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  
