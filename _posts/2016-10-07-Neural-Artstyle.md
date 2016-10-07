@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: defaults
 title: A Neural Algorithm of Artistic Style
 ---
 
