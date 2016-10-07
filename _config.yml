@@ -15,7 +15,7 @@ url                      : "https://xiahua-spark.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "XiaHua-Spark/XiaHua-Spark.github.io"
 teaser                   : "matrix.jpg"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
