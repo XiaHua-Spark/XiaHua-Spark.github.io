@@ -25,6 +25,6 @@ tags:
 ### 安装 Neural Style
 先去 github 上 clone 作者的项目
 
-```
-git clone https://github.com/jcjohnson/neural-style.git
-```
+
+`git clone https://github.com/jcjohnson/neural-style.git`
+
