@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "bio-photo.jpg"
+  avatar           : "my_avatar.jpg"
   bio              : "I'm Ph.D student interested in computational pgotography."
   location         : "Nanjing, China"
   email            : "xhua.spark@gmail.com"
